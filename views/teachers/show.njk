@@ -1,0 +1,38 @@
+{% extends "layout.njk" %}
+{% block header %}
+    <title>Professores</title>
+{% endblock %}
+{% block content %}
+<div class="card">
+    <section class="avatar" style="background: url({{teachers.avatar_url}}) no-repeat"></section>
+    <section class="details">
+                <h3>Detalhes</h3>
+        <div class="item">
+            <div>Nome</div>
+            <div>{{teachers.name}}</div>
+        </div>
+        <div class="item">
+            <div>Idade</div>
+            <div>{{teachers.age}}</div>
+        </div>
+        <div class="item">
+            <div>Grau de escolaridade</div>
+            <div>{{teachers.degree}}</div>
+        </div>
+        <div class="item">
+            <div>Areas de atuação</div>
+             {% for areas in teachers.areas %}
+             <span>{{areas}}</span>
+             {% endfor %}
+        </div>
+        <div class="item">
+            <div>Tipo de aula</div>
+            <div>{{teachers.typeofclass}}</div>
+        </div>
+        <div class="item">
+            <div>Desde</div>
+            <div>{{teachers.created_at}}</div>
+        </div>       
+    </section>
+</div>
+{% endblock %}
