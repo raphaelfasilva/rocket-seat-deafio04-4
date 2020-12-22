@@ -1,23 +1,44 @@
 {
-    "teachers": [{
-            "id": 1,
-            "avatar_url": "http://ddssdsddssd",
-            "name": "dssdsddssd",
-            "birth": 1606089600000,
-            "degree": "Ensino Médio Completo",
-            "typeofclass": "Presencial",
-            "areas": "cxcxxcxcxccxxc,dssddssdsd",
-            "created_at": 1606180568932
-        },
-        {
-            "id": 2,
-            "avatar_url": "https://source.unsplash.com/collection/2005783/500x500",
-            "name": "cxcxcxcx",
-            "birth": 1606089600000,
-            "degree": "Doutorado",
-            "areas": "cxcxxcxcxccxxc,sdsddsd",
-            "typeofclass": "Presencial",
-            "created_at": 1606180741743
-        }
-    ]
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "http://ddssdsddssd",
+      "name": "dssdsddssd",
+      "birth": 1606089600000,
+      "degree": "Ensino Médio Completo",
+      "typeofclass": "Presencial",
+      "areas": "cxcxxcxcxccxxc,dssddssdsd",
+      "created_at": 1606180568932
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/collection/2005783/500x500",
+      "name": "cxcxcxcx",
+      "birth": 1606089600000,
+      "degree": "Doutorado",
+      "areas": "cxcxxcxcxccxxc,sdsddsd",
+      "typeofclass": "Presencial",
+      "created_at": 1606180741743
+    },
+    {
+      "id": 3,
+      "avatar_url": "http://wddfdff.com",
+      "name": "ddfff",
+      "birth": 515721600000,
+      "degree": "Ensino Médio Completo",
+      "areas": "dfdfdfdf,dffddfdf",
+      "typeofclass": "Presencial",
+      "created_at": 1608644975399
+    },
+    {
+      "id": 4,
+      "avatar_url": "http://wddfdff.com",
+      "name": "fdffddffd",
+      "birth": 578880000000,
+      "degree": "Doutorado",
+      "areas": "cxcxxcxcxccxxc,sdsdsdsd",
+      "typeofclass": "EAD",
+      "created_at": 1608647581580
+    }
+  ]
 }
