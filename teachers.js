@@ -37,14 +37,14 @@ exports.show = function(req, res) {
     if (!foundTeachers) {
         res.send("professor não encontrado")
     }
-    const teachers = {
+    const teacher = {
         ...foundTeachers,
         age: age(foundTeachers.birth),
         areas: foundTeachers.areas.split(","),
         created_at: new Intl.DateTimeFormat("pt-BR").format(foundTeachers.created_at),
 
     }
-    return res.render("teachers/show", { teachers })
+    return res.render("teachers/show", { teacher })
 }
 
 exports.edit = function(req, res) {
